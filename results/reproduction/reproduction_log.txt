@@ -1,0 +1,39 @@
+Reproduction of peijoy/DetectDepressionInTwitterPosts
+Environment: Linux, 2 vCPU, no GPU, Python 3.13, TensorFlow 2.21 (CPU), tf_keras 2.21, gensim 4.4
+Notebook: original_reproduction.ipynb (executed with jupyter nbconvert --execute)
+cell 22 = tokenizer size, 24 = tensor shapes, 35 = training, 42 = test accuracy,
+44 = classification report + confusion matrix, 52 = logistic regression baseline
+
+--- cell 22
+Found 21548 unique tokens
+--- cell 24
+Shape of data_d tensor: (2308, 140)
+Shape of data_r tensor: (11911, 140)
+--- cell 35
+Epoch 1/10
+214/214 [==============================] - 24s 106ms/step - loss: 0.1482 - acc: 0.9497 - val_loss: 0.0585 - val_acc: 0.9870
+Epoch 2/10
+214/214 [==============================] - 22s 103ms/step - loss: 0.0454 - acc: 0.9883 - val_loss: 0.0360 - val_acc: 0.9912
+Epoch 3/10
+214/214 [==============================] - 22s 103ms/step - loss: 0.0381 - acc: 0.9910 - val_loss: 0.0440 - val_acc: 0.9912
+Epoch 4/10
+214/214 [==============================] - 22s 104ms/step - loss: 0.0280 - acc: 0.9932 - val_loss: 0.0396 - val_acc: 0.9898
+Epoch 5/10
+214/214 [==============================] - 21s 100ms/step - loss: 0.0489 - acc: 0.9906 - val_loss: 0.0391 - val_acc: 0.9912
+Training time: 143.4 s
+--- cell 42
+Accuracy: 98.87%
+--- cell 44
+precision    recall  f1-score   support
+
+           0     0.9916    0.9950    0.9933      2382
+           1     0.9736    0.9567    0.9651       462
+
+    accuracy                         0.9887      2844
+   macro avg     0.9826    0.9758    0.9792      2844
+weighted avg     0.9887    0.9887    0.9887      2844
+
+[[2370   12]
+ [  20  442]]
+--- cell 52
+Logistic Regression Accuracy: 83.755

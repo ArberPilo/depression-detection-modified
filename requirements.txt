@@ -1,0 +1,11 @@
+# versions used for all results in this repository (Python 3.13, CPU only)
+tensorflow-cpu==2.21.0     # or "tensorflow==2.21.0" if you have a GPU
+tf-keras==2.21.0
+gensim==4.4.0
+scikit-learn==1.9.1
+pandas==3.0.5
+numpy==2.5.3
+nltk==3.10.4
+ftfy==6.3.1
+matplotlib==3.11.2
+jupyter
