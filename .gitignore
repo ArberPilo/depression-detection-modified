@@ -6,3 +6,4 @@ __pycache__/
 .ipynb_checkpoints/
 results/experiments_log_raw.txt
 results/cross_dataset_log_raw.txt
+venv/
