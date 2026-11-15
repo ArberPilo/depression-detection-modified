@@ -1,0 +1,392 @@
+{
+  "Twitter_to_Twitter": {
+    "oov_rate_vs_source_vocab": 0.11989733561476412,
+    "keyword_breakdown": {
+      "with_keyword": {
+        "n_depression_posts": 317,
+        "recall_on_depression_posts": 0.9905362776025236,
+        "n_other_posts": 1,
+        "false_positive_rate_on_other_posts": 0.0
+      },
+      "without_keyword": {
+        "n_depression_posts": 29,
+        "recall_on_depression_posts": 0.3448275862068966,
+        "n_other_posts": 1766,
+        "false_positive_rate_on_other_posts": 0.0022650056625141564
+      }
+    },
+    "false_positive_examples": [
+      {
+        "prob_depression": 0.928,
+        "text_first_25_words": "common failures upgrade dec cu corrupted dlls hanged experience"
+      },
+      {
+        "prob_depression": 0.719,
+        "text_first_25_words": "fanfic addiction faz falta"
+      },
+      {
+        "prob_depression": 0.632,
+        "text_first_25_words": "cause faith apparently lost cause"
+      },
+      {
+        "prob_depression": 0.579,
+        "text_first_25_words": "7044 twitterholic com help improve score"
+      }
+    ],
+    "false_negative_examples": [
+      {
+        "prob_depression": 0.001,
+        "text_first_25_words": "sure check saturday 11 00 est replaying show featured lovely talented"
+      },
+      {
+        "prob_depression": 0.001,
+        "text_first_25_words": "worked producer los angeles matter would stop go gym swim"
+      },
+      {
+        "prob_depression": 0.001,
+        "text_first_25_words": "took two hours go grocery shopping energy left drive home live publix guess"
+      },
+      {
+        "prob_depression": 0.002,
+        "text_first_25_words": "every single person world every culture every language every country knows eat food matter food body enough must food soul"
+      },
+      {
+        "prob_depression": 0.004,
+        "text_first_25_words": "ok ok"
+      },
+      {
+        "prob_depression": 0.004,
+        "text_first_25_words": "much say one really except latest post"
+      }
+    ],
+    "by_length": [
+      {
+        "words": "1-10",
+        "n": 1603,
+        "share_depression": 0.11977542108546475,
+        "accuracy": 0.9881472239550843,
+        "share_predicted_depression": 0.11291328758577666
+      },
+      {
+        "words": "11-25",
+        "n": 489,
+        "share_depression": 0.2719836400817996,
+        "accuracy": 0.9856850715746421,
+        "share_predicted_depression": 0.25766871165644173
+      },
+      {
+        "words": "26-50",
+        "n": 21,
+        "share_depression": 1.0,
+        "accuracy": 1.0,
+        "share_predicted_depression": 1.0
+      }
+    ]
+  },
+  "Twitter_to_Reddit": {
+    "oov_rate_vs_source_vocab": 0.09157528608979636,
+    "keyword_breakdown": {
+      "with_keyword": {
+        "n_depression_posts": 238,
+        "recall_on_depression_posts": 0.957983193277311,
+        "n_other_posts": 4,
+        "false_positive_rate_on_other_posts": 0.0
+      },
+      "without_keyword": {
+        "n_depression_posts": 318,
+        "recall_on_depression_posts": 0.5188679245283019,
+        "n_other_posts": 539,
+        "false_positive_rate_on_other_posts": 0.0055658627087198514
+      }
+    },
+    "false_positive_examples": [
+      {
+        "prob_depression": 0.976,
+        "text_first_25_words": "stress always culminates physical pain"
+      },
+      {
+        "prob_depression": 0.663,
+        "text_first_25_words": "bad news wa dad ha cancer dying good news new business started life coach practising holistic weight management"
+      },
+      {
+        "prob_depression": 0.629,
+        "text_first_25_words": "peace quiet stress freeness bout come end"
+      }
+    ],
+    "false_negative_examples": [
+      {
+        "prob_depression": 0.0,
+        "text_first_25_words": "im home alone first time cant help think time hate mind think way idk else think"
+      },
+      {
+        "prob_depression": 0.0,
+        "text_first_25_words": "never actually get better seems like lull come back even stronger done obviously worth keeping around deserve buried forgotten tf want anything fucking idiot"
+      },
+      {
+        "prob_depression": 0.0,
+        "text_first_25_words": "life genuinely miserable quite frankly want keep living like time afraid dying literally accessible mean dying either im much pussy violent kind death dont access"
+      },
+      {
+        "prob_depression": 0.001,
+        "text_first_25_words": "exhausted stop sleeping staying awake struggle feel like shit staying awake make want sleep maybe take nap"
+      },
+      {
+        "prob_depression": 0.001,
+        "text_first_25_words": "want km wa impulsive ended good relationship first lover anymore"
+      },
+      {
+        "prob_depression": 0.001,
+        "text_first_25_words": "anybody 0 year old south florida want talk"
+      }
+    ],
+    "by_length": [
+      {
+        "words": "1-10",
+        "n": 460,
+        "share_depression": 0.15869565217391304,
+        "accuracy": 0.9565217391304348,
+        "share_predicted_depression": 0.12391304347826088
+      },
+      {
+        "words": "11-25",
+        "n": 296,
+        "share_depression": 0.47297297297297297,
+        "accuracy": 0.8243243243243243,
+        "share_predicted_depression": 0.30405405405405406
+      },
+      {
+        "words": "26-50",
+        "n": 130,
+        "share_depression": 1.0,
+        "accuracy": 0.5461538461538461,
+        "share_predicted_depression": 0.5461538461538461
+      },
+      {
+        "words": "51-100",
+        "n": 118,
+        "share_depression": 1.0,
+        "accuracy": 0.7711864406779662,
+        "share_predicted_depression": 0.7711864406779662
+      },
+      {
+        "words": "101-max",
+        "n": 95,
+        "share_depression": 1.0,
+        "accuracy": 0.9157894736842105,
+        "share_predicted_depression": 0.9157894736842105
+      }
+    ]
+  },
+  "Reddit_to_Twitter": {
+    "oov_rate_vs_source_vocab": 0.23215595208995354,
+    "keyword_breakdown": {
+      "with_keyword": {
+        "n_depression_posts": 317,
+        "recall_on_depression_posts": 0.9873817034700315,
+        "n_other_posts": 1,
+        "false_positive_rate_on_other_posts": 0.0
+      },
+      "without_keyword": {
+        "n_depression_posts": 29,
+        "recall_on_depression_posts": 0.20689655172413793,
+        "n_other_posts": 1766,
+        "false_positive_rate_on_other_posts": 0.01642129105322763
+      }
+    },
+    "false_positive_examples": [
+      {
+        "prob_depression": 0.984,
+        "text_first_25_words": "let go hope hope gives strength keep going feel like giving real somebody please tell"
+      },
+      {
+        "prob_depression": 0.978,
+        "text_first_25_words": "kein stress please please hug berlin wall send wallhuggers group flickr com mauerandmore de thx"
+      },
+      {
+        "prob_depression": 0.946,
+        "text_first_25_words": "mommy going die asked everyone going die sweetie responded"
+      },
+      {
+        "prob_depression": 0.929,
+        "text_first_25_words": "breathe heart pray strength stand today cause love whether wrong right"
+      },
+      {
+        "prob_depression": 0.929,
+        "text_first_25_words": "feel comfortable using legal jargon everyday life object elle woods lsat tomorrow"
+      },
+      {
+        "prob_depression": 0.929,
+        "text_first_25_words": "try enjoy ur family need anything anything love sis brave know u r strong ur prayers"
+      }
+    ],
+    "false_negative_examples": [
+      {
+        "prob_depression": 0.002,
+        "text_first_25_words": "sure check saturday 11 00 est replaying show featured lovely talented"
+      },
+      {
+        "prob_depression": 0.01,
+        "text_first_25_words": "took two hours go grocery shopping energy left drive home live publix guess"
+      },
+      {
+        "prob_depression": 0.014,
+        "text_first_25_words": "ok ok"
+      },
+      {
+        "prob_depression": 0.017,
+        "text_first_25_words": "worked producer los angeles matter would stop go gym swim"
+      },
+      {
+        "prob_depression": 0.026,
+        "text_first_25_words": "real answers man come darkness major"
+      },
+      {
+        "prob_depression": 0.037,
+        "text_first_25_words": "getting fatter enforced"
+      }
+    ],
+    "by_length": [
+      {
+        "words": "1-10",
+        "n": 1603,
+        "share_depression": 0.11977542108546475,
+        "accuracy": 0.9800374298190893,
+        "share_predicted_depression": 0.11353711790393013
+      },
+      {
+        "words": "11-25",
+        "n": 489,
+        "share_depression": 0.2719836400817996,
+        "accuracy": 0.950920245398773,
+        "share_predicted_depression": 0.2965235173824131
+      },
+      {
+        "words": "26-50",
+        "n": 21,
+        "share_depression": 1.0,
+        "accuracy": 1.0,
+        "share_predicted_depression": 1.0
+      }
+    ]
+  },
+  "Reddit_to_Reddit": {
+    "oov_rate_vs_source_vocab": 0.050394286169450124,
+    "keyword_breakdown": {
+      "with_keyword": {
+        "n_depression_posts": 238,
+        "recall_on_depression_posts": 1.0,
+        "n_other_posts": 4,
+        "false_positive_rate_on_other_posts": 0.25
+      },
+      "without_keyword": {
+        "n_depression_posts": 318,
+        "recall_on_depression_posts": 0.940251572327044,
+        "n_other_posts": 539,
+        "false_positive_rate_on_other_posts": 0.016697588126159554
+      }
+    },
+    "false_positive_examples": [
+      {
+        "prob_depression": 0.943,
+        "text_first_25_words": "stress always culminates physical pain"
+      },
+      {
+        "prob_depression": 0.906,
+        "text_first_25_words": "fucking shin splint im pain drug please never realised could painful"
+      },
+      {
+        "prob_depression": 0.865,
+        "text_first_25_words": "bad news wa dad ha cancer dying good news new business started life coach practising holistic weight management"
+      },
+      {
+        "prob_depression": 0.82,
+        "text_first_25_words": "tonight episode house wa sad believe left show stay awake anymore mad tired long day sleep time"
+      },
+      {
+        "prob_depression": 0.808,
+        "text_first_25_words": "guy bill gate associate make feel like know nothing even know name"
+      },
+      {
+        "prob_depression": 0.792,
+        "text_first_25_words": "peace quiet stress freeness bout come end"
+      }
+    ],
+    "false_negative_examples": [
+      {
+        "prob_depression": 0.012,
+        "text_first_25_words": "got driving ticket day almost got another one today parking front someone driveway"
+      },
+      {
+        "prob_depression": 0.02,
+        "text_first_25_words": "pls guy answer u feel"
+      },
+      {
+        "prob_depression": 0.036,
+        "text_first_25_words": "brain lying matter best good enough even bad day amazing much offer world"
+      },
+      {
+        "prob_depression": 0.037,
+        "text_first_25_words": "rainy cloudy stuff today even still feel way"
+      },
+      {
+        "prob_depression": 0.055,
+        "text_first_25_words": "complete mess right"
+      },
+      {
+        "prob_depression": 0.072,
+        "text_first_25_words": "posted self harm sub look profile see x 00b great day everyone"
+      }
+    ],
+    "by_length": [
+      {
+        "words": "1-10",
+        "n": 460,
+        "share_depression": 0.15869565217391304,
+        "accuracy": 0.9586956521739131,
+        "share_predicted_depression": 0.1391304347826087
+      },
+      {
+        "words": "11-25",
+        "n": 296,
+        "share_depression": 0.47297297297297297,
+        "accuracy": 0.9662162162162162,
+        "share_predicted_depression": 0.47297297297297297
+      },
+      {
+        "words": "26-50",
+        "n": 130,
+        "share_depression": 1.0,
+        "accuracy": 1.0,
+        "share_predicted_depression": 1.0
+      },
+      {
+        "words": "51-100",
+        "n": 118,
+        "share_depression": 1.0,
+        "accuracy": 1.0,
+        "share_predicted_depression": 1.0
+      },
+      {
+        "words": "101-max",
+        "n": 95,
+        "share_depression": 1.0,
+        "accuracy": 1.0,
+        "share_predicted_depression": 1.0
+      }
+    ]
+  },
+  "dataset_stats": {
+    "Twitter": {
+      "n": 14085,
+      "share_depression": 0.16386226482073127,
+      "median_words": 7.0,
+      "keyword_share_in_depression_class": 0.9315424610051993
+    },
+    "Reddit": {
+      "n": 7325,
+      "share_depression": 0.5055290102389078,
+      "median_words": 12.0,
+      "keyword_share_in_depression_class": 0.4045368620037807
+    }
+  }
+}

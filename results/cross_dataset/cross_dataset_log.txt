@@ -1,0 +1,104 @@
+Twitter: 2308 depressive + 11911 random tweets
+Reddit: 7731 rows -> 7325 after removing duplicates/empty posts
+Epoch 1/10
+247/247 - 16s - loss: 0.1652 - acc: 0.9439 - val_loss: 0.0703 - val_acc: 0.9877 - 16s/epoch - 66ms/step
+Epoch 2/10
+247/247 - 14s - loss: 0.0907 - acc: 0.9888 - val_loss: 0.0604 - val_acc: 0.9891 - 14s/epoch - 55ms/step
+Epoch 3/10
+247/247 - 13s - loss: 0.0705 - acc: 0.9902 - val_loss: 0.0566 - val_acc: 0.9901 - 13s/epoch - 53ms/step
+Epoch 4/10
+247/247 - 13s - loss: 0.0549 - acc: 0.9924 - val_loss: 0.0684 - val_acc: 0.9872 - 13s/epoch - 53ms/step
+Epoch 5/10
+247/247 - 13s - loss: 0.0438 - acc: 0.9946 - val_loss: 0.0575 - val_acc: 0.9901 - 13s/epoch - 52ms/step
+Epoch 6/10
+247/247 - 13s - loss: 0.0332 - acc: 0.9961 - val_loss: 0.0567 - val_acc: 0.9920 - 13s/epoch - 53ms/step
+Twitter -> Twitter seed 1234 {'accuracy': 0.9877, 'precision': 0.9878, 'recall': 0.9364, 'f1': 0.9614, 'roc_auc': 0.9854, 'mean_predicted_prob': 0.1686, 'share_predicted_positive': 0.1552}
+Twitter -> Reddit seed 1234 {'accuracy': 0.849, 'precision': 0.9924, 'recall': 0.7068, 'f1': 0.8256, 'roc_auc': 0.935, 'mean_predicted_prob': 0.3665, 'share_predicted_positive': 0.3603}
+Epoch 1/10
+247/247 - 16s - loss: 0.1662 - acc: 0.9627 - val_loss: 0.1184 - val_acc: 0.9796 - 16s/epoch - 64ms/step
+Epoch 2/10
+247/247 - 14s - loss: 0.0906 - acc: 0.9886 - val_loss: 0.0627 - val_acc: 0.9886 - 14s/epoch - 56ms/step
+Epoch 3/10
+247/247 - 13s - loss: 0.0691 - acc: 0.9896 - val_loss: 0.0565 - val_acc: 0.9901 - 13s/epoch - 52ms/step
+Epoch 4/10
+247/247 - 14s - loss: 0.0559 - acc: 0.9913 - val_loss: 0.0645 - val_acc: 0.9858 - 14s/epoch - 57ms/step
+Epoch 5/10
+247/247 - 14s - loss: 0.0450 - acc: 0.9933 - val_loss: 0.0527 - val_acc: 0.9901 - 14s/epoch - 56ms/step
+Epoch 6/10
+247/247 - 14s - loss: 0.0332 - acc: 0.9958 - val_loss: 0.0584 - val_acc: 0.9896 - 14s/epoch - 58ms/step
+Epoch 7/10
+247/247 - 15s - loss: 0.0283 - acc: 0.9974 - val_loss: 0.0698 - val_acc: 0.9891 - 15s/epoch - 61ms/step
+Epoch 8/10
+247/247 - 14s - loss: 0.0269 - acc: 0.9978 - val_loss: 0.0591 - val_acc: 0.9896 - 14s/epoch - 59ms/step
+Twitter -> Twitter seed 1 {'accuracy': 0.9886, 'precision': 1.0, 'recall': 0.9306, 'f1': 0.9641, 'roc_auc': 0.9848, 'mean_predicted_prob': 0.159, 'share_predicted_positive': 0.1524}
+Twitter -> Reddit seed 1 {'accuracy': 0.8717, 'precision': 0.9929, 'recall': 0.7518, 'f1': 0.8557, 'roc_auc': 0.9509, 'mean_predicted_prob': 0.3849, 'share_predicted_positive': 0.3831}
+Epoch 1/10
+247/247 - 16s - loss: 0.1664 - acc: 0.9479 - val_loss: 0.0767 - val_acc: 0.9867 - 16s/epoch - 67ms/step
+Epoch 2/10
+247/247 - 14s - loss: 0.0872 - acc: 0.9877 - val_loss: 0.0599 - val_acc: 0.9891 - 14s/epoch - 58ms/step
+Epoch 3/10
+247/247 - 14s - loss: 0.0683 - acc: 0.9910 - val_loss: 0.0565 - val_acc: 0.9910 - 14s/epoch - 58ms/step
+Epoch 4/10
+247/247 - 14s - loss: 0.0513 - acc: 0.9932 - val_loss: 0.0565 - val_acc: 0.9905 - 14s/epoch - 58ms/step
+Epoch 5/10
+247/247 - 14s - loss: 0.0395 - acc: 0.9954 - val_loss: 0.0582 - val_acc: 0.9896 - 14s/epoch - 58ms/step
+Epoch 6/10
+247/247 - 15s - loss: 0.0323 - acc: 0.9969 - val_loss: 0.0634 - val_acc: 0.9901 - 15s/epoch - 60ms/step
+Epoch 7/10
+247/247 - 14s - loss: 0.0281 - acc: 0.9973 - val_loss: 0.0601 - val_acc: 0.9905 - 14s/epoch - 58ms/step
+Twitter -> Twitter seed 2 {'accuracy': 0.9882, 'precision': 0.982, 'recall': 0.9451, 'f1': 0.9632, 'roc_auc': 0.9868, 'mean_predicted_prob': 0.1718, 'share_predicted_positive': 0.1576}
+Twitter -> Reddit seed 2 {'accuracy': 0.9217, 'precision': 0.9896, 'recall': 0.8543, 'f1': 0.917, 'roc_auc': 0.9758, 'mean_predicted_prob': 0.4444, 'share_predicted_positive': 0.4368}
+Epoch 1/10
+129/129 - 10s - loss: 0.2376 - acc: 0.9095 - val_loss: 0.1231 - val_acc: 0.9654 - 10s/epoch - 80ms/step
+Epoch 2/10
+129/129 - 8s - loss: 0.1289 - acc: 0.9612 - val_loss: 0.1081 - val_acc: 0.9700 - 8s/epoch - 60ms/step
+Epoch 3/10
+129/129 - 8s - loss: 0.1026 - acc: 0.9723 - val_loss: 0.1028 - val_acc: 0.9700 - 8s/epoch - 63ms/step
+Epoch 4/10
+129/129 - 7s - loss: 0.0893 - acc: 0.9744 - val_loss: 0.1030 - val_acc: 0.9691 - 7s/epoch - 57ms/step
+Epoch 5/10
+129/129 - 7s - loss: 0.0797 - acc: 0.9787 - val_loss: 0.1186 - val_acc: 0.9636 - 7s/epoch - 54ms/step
+Epoch 6/10
+129/129 - 7s - loss: 0.0672 - acc: 0.9834 - val_loss: 0.1160 - val_acc: 0.9645 - 7s/epoch - 54ms/step
+Reddit -> Twitter seed 1234 {'accuracy': 0.9735, 'precision': 0.9167, 'recall': 0.922, 'f1': 0.9193, 'roc_auc': 0.981, 'mean_predicted_prob': 0.1937, 'share_predicted_positive': 0.1647}
+Reddit -> Reddit seed 1234 {'accuracy': 0.9736, 'precision': 0.9817, 'recall': 0.9658, 'f1': 0.9737, 'roc_auc': 0.996, 'mean_predicted_prob': 0.5094, 'share_predicted_positive': 0.4977}
+Epoch 1/10
+129/129 - 10s - loss: 0.2500 - acc: 0.9033 - val_loss: 0.2487 - val_acc: 0.9117 - 10s/epoch - 74ms/step
+Epoch 2/10
+129/129 - 7s - loss: 0.1335 - acc: 0.9610 - val_loss: 0.1201 - val_acc: 0.9654 - 7s/epoch - 58ms/step
+Epoch 3/10
+129/129 - 7s - loss: 0.1115 - acc: 0.9668 - val_loss: 0.1129 - val_acc: 0.9691 - 7s/epoch - 57ms/step
+Epoch 4/10
+129/129 - 7s - loss: 0.0923 - acc: 0.9735 - val_loss: 0.1686 - val_acc: 0.9463 - 7s/epoch - 58ms/step
+Epoch 5/10
+129/129 - 8s - loss: 0.0770 - acc: 0.9787 - val_loss: 0.1269 - val_acc: 0.9645 - 8s/epoch - 58ms/step
+Epoch 6/10
+129/129 - 7s - loss: 0.0685 - acc: 0.9823 - val_loss: 0.1036 - val_acc: 0.9672 - 7s/epoch - 56ms/step
+Epoch 7/10
+129/129 - 7s - loss: 0.0613 - acc: 0.9826 - val_loss: 0.1438 - val_acc: 0.9572 - 7s/epoch - 53ms/step
+Epoch 8/10
+129/129 - 7s - loss: 0.0513 - acc: 0.9869 - val_loss: 0.1176 - val_acc: 0.9691 - 7s/epoch - 53ms/step
+Epoch 9/10
+129/129 - 7s - loss: 0.0452 - acc: 0.9899 - val_loss: 0.1206 - val_acc: 0.9654 - 7s/epoch - 54ms/step
+Reddit -> Twitter seed 1 {'accuracy': 0.9631, 'precision': 0.8545, 'recall': 0.9335, 'f1': 0.8923, 'roc_auc': 0.9771, 'mean_predicted_prob': 0.2177, 'share_predicted_positive': 0.1789}
+Reddit -> Reddit seed 1 {'accuracy': 0.9709, 'precision': 0.9729, 'recall': 0.9694, 'f1': 0.9712, 'roc_auc': 0.9957, 'mean_predicted_prob': 0.5153, 'share_predicted_positive': 0.5041}
+Epoch 1/10
+129/129 - 10s - loss: 0.2487 - acc: 0.9050 - val_loss: 0.1847 - val_acc: 0.9500 - 10s/epoch - 78ms/step
+Epoch 2/10
+129/129 - 8s - loss: 0.1309 - acc: 0.9626 - val_loss: 0.1449 - val_acc: 0.9563 - 8s/epoch - 60ms/step
+Epoch 3/10
+129/129 - 7s - loss: 0.1070 - acc: 0.9694 - val_loss: 0.1599 - val_acc: 0.9527 - 7s/epoch - 56ms/step
+Epoch 4/10
+129/129 - 7s - loss: 0.0909 - acc: 0.9744 - val_loss: 0.1605 - val_acc: 0.9518 - 7s/epoch - 57ms/step
+Epoch 5/10
+129/129 - 7s - loss: 0.0805 - acc: 0.9766 - val_loss: 0.1959 - val_acc: 0.9536 - 7s/epoch - 56ms/step
+Reddit -> Twitter seed 2 {'accuracy': 0.9853, 'precision': 1.0, 'recall': 0.9104, 'f1': 0.9531, 'roc_auc': 0.9815, 'mean_predicted_prob': 0.1696, 'share_predicted_positive': 0.1491}
+Reddit -> Reddit seed 2 {'accuracy': 0.9545, 'precision': 0.998, 'recall': 0.9119, 'f1': 0.953, 'roc_auc': 0.9945, 'mean_predicted_prob': 0.4712, 'share_predicted_positive': 0.4622}
+                 accuracy         precision          recall              f1         roc_auc         share_predicted_positive        
+                     mean     std      mean     std    mean     std    mean     std    mean     std                     mean     std
+train_on test_on                                                                                                                    
+Twitter  Twitter   0.9882  0.0005    0.9899  0.0092  0.9374  0.0073  0.9629  0.0013  0.9856  0.0010                   0.1551  0.0026
+         Reddit    0.8808  0.0372    0.9916  0.0018  0.7710  0.0756  0.8661  0.0466  0.9539  0.0206                   0.3934  0.0392
+Reddit   Twitter   0.9740  0.0111    0.9237  0.0730  0.9220  0.0116  0.9216  0.0305  0.9799  0.0024                   0.1642  0.0149
+         Reddit    0.9663  0.0103    0.9842  0.0127  0.9490  0.0322  0.9660  0.0113  0.9954  0.0008                   0.4880  0.0226
+EXIT 0
