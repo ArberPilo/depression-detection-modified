@@ -1,0 +1,258 @@
+Reddit: 7731 rows -> 7325 after removing duplicates/empty posts
+train 5127  val 1099  test 1099
+class weights: {0: 1.011242603550296, 1: 0.9890046296296297}
+vocabulary 15259, embedding rows 15260, with Word2Vec vector 11952
+
+===== Exp1_original_LSTM_CNN  (seed 1234) =====
+Epoch 1/10
+129/129 - 15s - loss: 0.2098 - acc: 0.9089 - val_loss: 0.1033 - val_acc: 0.9663 - 15s/epoch - 117ms/step
+Epoch 2/10
+129/129 - 13s - loss: 0.0984 - acc: 0.9653 - val_loss: 0.0957 - val_acc: 0.9672 - 13s/epoch - 101ms/step
+Epoch 3/10
+129/129 - 12s - loss: 0.0737 - acc: 0.9752 - val_loss: 0.0824 - val_acc: 0.9691 - 12s/epoch - 93ms/step
+Epoch 4/10
+129/129 - 13s - loss: 0.0566 - acc: 0.9799 - val_loss: 0.0815 - val_acc: 0.9709 - 13s/epoch - 98ms/step
+Epoch 5/10
+129/129 - 13s - loss: 0.0460 - acc: 0.9852 - val_loss: 0.0879 - val_acc: 0.9718 - 13s/epoch - 97ms/step
+Epoch 6/10
+129/129 - 12s - loss: 0.0352 - acc: 0.9869 - val_loss: 0.0866 - val_acc: 0.9700 - 12s/epoch - 96ms/step
+Epoch 7/10
+129/129 - 13s - loss: 0.0247 - acc: 0.9916 - val_loss: 0.1028 - val_acc: 0.9718 - 13s/epoch - 99ms/step
+{'accuracy': 0.9718, 'precision': 0.9781, 'recall': 0.9658, 'f1': 0.9719, 'roc_auc': 0.9957, 'tn': 531, 'fp': 12, 'fn': 19, 'tp': 537, 'model': 'Exp1_original_LSTM_CNN', 'epochs_run': 7, 'train_time_s': 90.6, 'inference_ms_per_post': 1.345, 'trainable_params': 428733, 'total_params': 5006733, 'model_file_mb': 23.5, 'peak_ram_mb_process': 1799, 'seed': 1234}
+
+===== Exp1_original_LSTM_CNN  (seed 1) =====
+Epoch 1/10
+129/129 - 14s - loss: 0.2092 - acc: 0.9077 - val_loss: 0.1145 - val_acc: 0.9636 - 14s/epoch - 109ms/step
+Epoch 2/10
+129/129 - 12s - loss: 0.0938 - acc: 0.9674 - val_loss: 0.0949 - val_acc: 0.9636 - 12s/epoch - 94ms/step
+Epoch 3/10
+129/129 - 12s - loss: 0.0747 - acc: 0.9737 - val_loss: 0.0993 - val_acc: 0.9627 - 12s/epoch - 92ms/step
+Epoch 4/10
+129/129 - 12s - loss: 0.0618 - acc: 0.9766 - val_loss: 0.1129 - val_acc: 0.9600 - 12s/epoch - 93ms/step
+Epoch 5/10
+129/129 - 12s - loss: 0.0469 - acc: 0.9828 - val_loss: 0.0965 - val_acc: 0.9627 - 12s/epoch - 95ms/step
+{'accuracy': 0.9709, 'precision': 0.9962, 'recall': 0.946, 'f1': 0.9705, 'roc_auc': 0.9953, 'tn': 541, 'fp': 2, 'fn': 30, 'tp': 526, 'model': 'Exp1_original_LSTM_CNN', 'epochs_run': 5, 'train_time_s': 62.6, 'inference_ms_per_post': 1.34, 'trainable_params': 428733, 'total_params': 5006733, 'model_file_mb': 23.5, 'peak_ram_mb_process': 1868, 'seed': 1}
+
+===== Exp1_original_LSTM_CNN  (seed 2) =====
+Epoch 1/10
+129/129 - 14s - loss: 0.2101 - acc: 0.9105 - val_loss: 0.1087 - val_acc: 0.9663 - 14s/epoch - 108ms/step
+Epoch 2/10
+129/129 - 13s - loss: 0.0943 - acc: 0.9672 - val_loss: 0.0829 - val_acc: 0.9691 - 13s/epoch - 99ms/step
+Epoch 3/10
+129/129 - 12s - loss: 0.0727 - acc: 0.9752 - val_loss: 0.0900 - val_acc: 0.9663 - 12s/epoch - 93ms/step
+Epoch 4/10
+129/129 - 13s - loss: 0.0600 - acc: 0.9793 - val_loss: 0.0918 - val_acc: 0.9682 - 13s/epoch - 101ms/step
+Epoch 5/10
+129/129 - 13s - loss: 0.0471 - acc: 0.9832 - val_loss: 0.1094 - val_acc: 0.9618 - 13s/epoch - 100ms/step
+{'accuracy': 0.9736, 'precision': 0.9907, 'recall': 0.9568, 'f1': 0.9735, 'roc_auc': 0.996, 'tn': 538, 'fp': 5, 'fn': 24, 'tp': 532, 'model': 'Exp1_original_LSTM_CNN', 'epochs_run': 5, 'train_time_s': 83.3, 'inference_ms_per_post': 1.205, 'trainable_params': 428733, 'total_params': 5006733, 'model_file_mb': 23.5, 'peak_ram_mb_process': 1926, 'seed': 2}
+
+===== Exp1_original_LSTM_CNN  (seed 3) =====
+Epoch 1/10
+129/129 - 14s - loss: 0.2031 - acc: 0.9198 - val_loss: 0.1200 - val_acc: 0.9600 - 14s/epoch - 112ms/step
+Epoch 2/10
+129/129 - 13s - loss: 0.0915 - acc: 0.9686 - val_loss: 0.1147 - val_acc: 0.9554 - 13s/epoch - 98ms/step
+Epoch 3/10
+129/129 - 13s - loss: 0.0706 - acc: 0.9758 - val_loss: 0.0848 - val_acc: 0.9682 - 13s/epoch - 103ms/step
+Epoch 4/10
+129/129 - 13s - loss: 0.0555 - acc: 0.9797 - val_loss: 0.0915 - val_acc: 0.9645 - 13s/epoch - 103ms/step
+Epoch 5/10
+129/129 - 13s - loss: 0.0452 - acc: 0.9860 - val_loss: 0.1120 - val_acc: 0.9627 - 13s/epoch - 103ms/step
+Epoch 6/10
+129/129 - 14s - loss: 0.0358 - acc: 0.9877 - val_loss: 0.1040 - val_acc: 0.9627 - 14s/epoch - 105ms/step
+{'accuracy': 0.9763, 'precision': 0.9889, 'recall': 0.964, 'f1': 0.9763, 'roc_auc': 0.996, 'tn': 537, 'fp': 6, 'fn': 20, 'tp': 536, 'model': 'Exp1_original_LSTM_CNN', 'epochs_run': 6, 'train_time_s': 83.2, 'inference_ms_per_post': 1.38, 'trainable_params': 428733, 'total_params': 5006733, 'model_file_mb': 23.5, 'peak_ram_mb_process': 1970, 'seed': 3}
+
+===== Exp1_original_LSTM_CNN  (seed 4) =====
+Epoch 1/10
+129/129 - 15s - loss: 0.2140 - acc: 0.9070 - val_loss: 0.1049 - val_acc: 0.9645 - 15s/epoch - 117ms/step
+Epoch 2/10
+129/129 - 13s - loss: 0.0937 - acc: 0.9688 - val_loss: 0.1154 - val_acc: 0.9618 - 13s/epoch - 99ms/step
+Epoch 3/10
+129/129 - 13s - loss: 0.0769 - acc: 0.9725 - val_loss: 0.0811 - val_acc: 0.9654 - 13s/epoch - 98ms/step
+Epoch 4/10
+129/129 - 13s - loss: 0.0561 - acc: 0.9793 - val_loss: 0.0923 - val_acc: 0.9672 - 13s/epoch - 97ms/step
+Epoch 5/10
+129/129 - 13s - loss: 0.0478 - acc: 0.9824 - val_loss: 0.0855 - val_acc: 0.9682 - 13s/epoch - 99ms/step
+Epoch 6/10
+129/129 - 14s - loss: 0.0370 - acc: 0.9862 - val_loss: 0.0916 - val_acc: 0.9672 - 14s/epoch - 105ms/step
+{'accuracy': 0.9736, 'precision': 0.9817, 'recall': 0.9658, 'f1': 0.9737, 'roc_auc': 0.9964, 'tn': 533, 'fp': 10, 'fn': 19, 'tp': 537, 'model': 'Exp1_original_LSTM_CNN', 'epochs_run': 6, 'train_time_s': 79.5, 'inference_ms_per_post': 1.397, 'trainable_params': 428733, 'total_params': 5006733, 'model_file_mb': 23.5, 'peak_ram_mb_process': 1979, 'seed': 4}
+
+===== Exp2_modified_BiLSTM_CNN  (seed 1234) =====
+Epoch 1/10
+129/129 - 9s - loss: 0.2376 - acc: 0.9095 - val_loss: 0.1231 - val_acc: 0.9654 - 9s/epoch - 69ms/step
+Epoch 2/10
+129/129 - 7s - loss: 0.1289 - acc: 0.9612 - val_loss: 0.1081 - val_acc: 0.9700 - 7s/epoch - 54ms/step
+Epoch 3/10
+129/129 - 7s - loss: 0.1026 - acc: 0.9723 - val_loss: 0.1028 - val_acc: 0.9700 - 7s/epoch - 53ms/step
+Epoch 4/10
+129/129 - 7s - loss: 0.0893 - acc: 0.9744 - val_loss: 0.1030 - val_acc: 0.9691 - 7s/epoch - 54ms/step
+Epoch 5/10
+129/129 - 7s - loss: 0.0797 - acc: 0.9787 - val_loss: 0.1186 - val_acc: 0.9636 - 7s/epoch - 53ms/step
+Epoch 6/10
+129/129 - 7s - loss: 0.0672 - acc: 0.9834 - val_loss: 0.1160 - val_acc: 0.9645 - 7s/epoch - 56ms/step
+{'accuracy': 0.9736, 'precision': 0.9817, 'recall': 0.9658, 'f1': 0.9737, 'roc_auc': 0.996, 'tn': 533, 'fp': 10, 'fn': 19, 'tp': 537, 'model': 'Exp2_modified_BiLSTM_CNN', 'epochs_run': 6, 'train_time_s': 83.7, 'inference_ms_per_post': 0.972, 'trainable_params': 248733, 'total_params': 4826733, 'model_file_mb': 20.3, 'peak_ram_mb_process': 2056, 'seed': 1234}
+
+===== Exp2_modified_BiLSTM_CNN  (seed 1) =====
+Epoch 1/10
+129/129 - 9s - loss: 0.2500 - acc: 0.9033 - val_loss: 0.2487 - val_acc: 0.9117 - 9s/epoch - 73ms/step
+Epoch 2/10
+129/129 - 7s - loss: 0.1335 - acc: 0.9610 - val_loss: 0.1201 - val_acc: 0.9654 - 7s/epoch - 58ms/step
+Epoch 3/10
+129/129 - 7s - loss: 0.1115 - acc: 0.9668 - val_loss: 0.1129 - val_acc: 0.9691 - 7s/epoch - 55ms/step
+Epoch 4/10
+129/129 - 7s - loss: 0.0923 - acc: 0.9735 - val_loss: 0.1686 - val_acc: 0.9463 - 7s/epoch - 57ms/step
+Epoch 5/10
+129/129 - 7s - loss: 0.0770 - acc: 0.9787 - val_loss: 0.1269 - val_acc: 0.9645 - 7s/epoch - 52ms/step
+Epoch 6/10
+129/129 - 7s - loss: 0.0685 - acc: 0.9823 - val_loss: 0.1036 - val_acc: 0.9672 - 7s/epoch - 54ms/step
+Epoch 7/10
+129/129 - 7s - loss: 0.0613 - acc: 0.9826 - val_loss: 0.1438 - val_acc: 0.9572 - 7s/epoch - 56ms/step
+Epoch 8/10
+129/129 - 9s - loss: 0.0513 - acc: 0.9869 - val_loss: 0.1176 - val_acc: 0.9691 - 9s/epoch - 66ms/step
+Epoch 9/10
+129/129 - 8s - loss: 0.0452 - acc: 0.9899 - val_loss: 0.1206 - val_acc: 0.9654 - 8s/epoch - 59ms/step
+{'accuracy': 0.9709, 'precision': 0.9729, 'recall': 0.9694, 'f1': 0.9712, 'roc_auc': 0.9957, 'tn': 528, 'fp': 15, 'fn': 17, 'tp': 539, 'model': 'Exp2_modified_BiLSTM_CNN', 'epochs_run': 9, 'train_time_s': 68.4, 'inference_ms_per_post': 0.951, 'trainable_params': 248733, 'total_params': 4826733, 'model_file_mb': 20.3, 'peak_ram_mb_process': 2113, 'seed': 1}
+
+===== Exp2_modified_BiLSTM_CNN  (seed 2) =====
+Epoch 1/10
+129/129 - 10s - loss: 0.2487 - acc: 0.9050 - val_loss: 0.1847 - val_acc: 0.9500 - 10s/epoch - 78ms/step
+Epoch 2/10
+129/129 - 7s - loss: 0.1309 - acc: 0.9626 - val_loss: 0.1449 - val_acc: 0.9563 - 7s/epoch - 54ms/step
+Epoch 3/10
+129/129 - 7s - loss: 0.1070 - acc: 0.9694 - val_loss: 0.1599 - val_acc: 0.9527 - 7s/epoch - 56ms/step
+Epoch 4/10
+129/129 - 8s - loss: 0.0909 - acc: 0.9744 - val_loss: 0.1605 - val_acc: 0.9518 - 8s/epoch - 62ms/step
+Epoch 5/10
+129/129 - 7s - loss: 0.0805 - acc: 0.9766 - val_loss: 0.1959 - val_acc: 0.9536 - 7s/epoch - 56ms/step
+{'accuracy': 0.9545, 'precision': 0.998, 'recall': 0.9119, 'f1': 0.953, 'roc_auc': 0.9945, 'tn': 542, 'fp': 1, 'fn': 49, 'tp': 507, 'model': 'Exp2_modified_BiLSTM_CNN', 'epochs_run': 5, 'train_time_s': 39.6, 'inference_ms_per_post': 0.823, 'trainable_params': 248733, 'total_params': 4826733, 'model_file_mb': 20.3, 'peak_ram_mb_process': 2140, 'seed': 2}
+
+===== Exp2_modified_BiLSTM_CNN  (seed 3) =====
+Epoch 1/10
+129/129 - 9s - loss: 0.2503 - acc: 0.9029 - val_loss: 0.1298 - val_acc: 0.9618 - 9s/epoch - 72ms/step
+Epoch 2/10
+129/129 - 10s - loss: 0.1276 - acc: 0.9655 - val_loss: 0.2005 - val_acc: 0.9409 - 10s/epoch - 81ms/step
+Epoch 3/10
+129/129 - 10s - loss: 0.1108 - acc: 0.9686 - val_loss: 0.1041 - val_acc: 0.9654 - 10s/epoch - 81ms/step
+Epoch 4/10
+129/129 - 11s - loss: 0.0908 - acc: 0.9764 - val_loss: 0.1034 - val_acc: 0.9663 - 11s/epoch - 84ms/step
+Epoch 5/10
+129/129 - 7s - loss: 0.0787 - acc: 0.9778 - val_loss: 0.1072 - val_acc: 0.9645 - 7s/epoch - 55ms/step
+Epoch 6/10
+129/129 - 7s - loss: 0.0637 - acc: 0.9840 - val_loss: 0.1765 - val_acc: 0.9545 - 7s/epoch - 54ms/step
+Epoch 7/10
+129/129 - 7s - loss: 0.0570 - acc: 0.9852 - val_loss: 0.1382 - val_acc: 0.9618 - 7s/epoch - 54ms/step
+{'accuracy': 0.9754, 'precision': 0.9783, 'recall': 0.973, 'f1': 0.9757, 'roc_auc': 0.996, 'tn': 531, 'fp': 12, 'fn': 15, 'tp': 541, 'model': 'Exp2_modified_BiLSTM_CNN', 'epochs_run': 7, 'train_time_s': 83.7, 'inference_ms_per_post': 0.799, 'trainable_params': 248733, 'total_params': 4826733, 'model_file_mb': 20.3, 'peak_ram_mb_process': 2194, 'seed': 3}
+
+===== Exp2_modified_BiLSTM_CNN  (seed 4) =====
+Epoch 1/10
+129/129 - 10s - loss: 0.2455 - acc: 0.9040 - val_loss: 0.1334 - val_acc: 0.9609 - 10s/epoch - 74ms/step
+Epoch 2/10
+129/129 - 7s - loss: 0.1292 - acc: 0.9627 - val_loss: 0.1405 - val_acc: 0.9591 - 7s/epoch - 54ms/step
+Epoch 3/10
+129/129 - 7s - loss: 0.1072 - acc: 0.9680 - val_loss: 0.1071 - val_acc: 0.9654 - 7s/epoch - 55ms/step
+Epoch 4/10
+129/129 - 7s - loss: 0.0929 - acc: 0.9731 - val_loss: 0.1075 - val_acc: 0.9682 - 7s/epoch - 54ms/step
+Epoch 5/10
+129/129 - 7s - loss: 0.0819 - acc: 0.9754 - val_loss: 0.0976 - val_acc: 0.9700 - 7s/epoch - 53ms/step
+Epoch 6/10
+129/129 - 7s - loss: 0.0706 - acc: 0.9815 - val_loss: 0.1149 - val_acc: 0.9645 - 7s/epoch - 55ms/step
+Epoch 7/10
+129/129 - 7s - loss: 0.0603 - acc: 0.9844 - val_loss: 0.1436 - val_acc: 0.9645 - 7s/epoch - 53ms/step
+Epoch 8/10
+129/129 - 7s - loss: 0.0532 - acc: 0.9848 - val_loss: 0.1131 - val_acc: 0.9672 - 7s/epoch - 52ms/step
+{'accuracy': 0.97, 'precision': 0.9746, 'recall': 0.9658, 'f1': 0.9702, 'roc_auc': 0.9968, 'tn': 529, 'fp': 14, 'fn': 19, 'tp': 537, 'model': 'Exp2_modified_BiLSTM_CNN', 'epochs_run': 8, 'train_time_s': 58.2, 'inference_ms_per_post': 0.762, 'trainable_params': 248733, 'total_params': 4826733, 'model_file_mb': 20.3, 'peak_ram_mb_process': 2285, 'seed': 4}
+
+===== Exp3_GRU  (seed 1234) =====
+Epoch 1/10
+129/129 - 10s - loss: 0.1964 - acc: 0.9181 - val_loss: 0.0910 - val_acc: 0.9691 - 10s/epoch - 80ms/step
+Epoch 2/10
+129/129 - 9s - loss: 0.0922 - acc: 0.9670 - val_loss: 0.0824 - val_acc: 0.9727 - 9s/epoch - 70ms/step
+Epoch 3/10
+129/129 - 9s - loss: 0.0743 - acc: 0.9715 - val_loss: 0.0769 - val_acc: 0.9709 - 9s/epoch - 72ms/step
+Epoch 4/10
+129/129 - 9s - loss: 0.0616 - acc: 0.9783 - val_loss: 0.0802 - val_acc: 0.9700 - 9s/epoch - 70ms/step
+Epoch 5/10
+129/129 - 10s - loss: 0.0540 - acc: 0.9826 - val_loss: 0.0846 - val_acc: 0.9700 - 10s/epoch - 74ms/step
+Epoch 6/10
+129/129 - 10s - loss: 0.0435 - acc: 0.9850 - val_loss: 0.0828 - val_acc: 0.9709 - 10s/epoch - 74ms/step
+{'accuracy': 0.9736, 'precision': 0.9782, 'recall': 0.9694, 'f1': 0.9738, 'roc_auc': 0.9965, 'tn': 531, 'fp': 12, 'fn': 17, 'tp': 539, 'model': 'Exp3_GRU', 'epochs_run': 6, 'train_time_s': 56.7, 'inference_ms_per_post': 0.812, 'trainable_params': 165249, 'total_params': 4743249, 'model_file_mb': 20.3, 'peak_ram_mb_process': 2377, 'seed': 1234}
+
+===== Exp3_GRU  (seed 1) =====
+Epoch 1/10
+129/129 - 11s - loss: 0.2150 - acc: 0.9089 - val_loss: 0.1015 - val_acc: 0.9645 - 11s/epoch - 84ms/step
+Epoch 2/10
+129/129 - 9s - loss: 0.0876 - acc: 0.9676 - val_loss: 0.0876 - val_acc: 0.9663 - 9s/epoch - 72ms/step
+Epoch 3/10
+129/129 - 9s - loss: 0.0728 - acc: 0.9744 - val_loss: 0.0811 - val_acc: 0.9709 - 9s/epoch - 70ms/step
+Epoch 4/10
+129/129 - 9s - loss: 0.0597 - acc: 0.9789 - val_loss: 0.0883 - val_acc: 0.9663 - 9s/epoch - 69ms/step
+Epoch 5/10
+129/129 - 9s - loss: 0.0525 - acc: 0.9803 - val_loss: 0.0820 - val_acc: 0.9718 - 9s/epoch - 69ms/step
+Epoch 6/10
+129/129 - 9s - loss: 0.0444 - acc: 0.9834 - val_loss: 0.0807 - val_acc: 0.9718 - 9s/epoch - 70ms/step
+Epoch 7/10
+129/129 - 9s - loss: 0.0399 - acc: 0.9863 - val_loss: 0.1009 - val_acc: 0.9700 - 9s/epoch - 71ms/step
+Epoch 8/10
+129/129 - 9s - loss: 0.0313 - acc: 0.9891 - val_loss: 0.0942 - val_acc: 0.9709 - 9s/epoch - 68ms/step
+Epoch 9/10
+129/129 - 9s - loss: 0.0218 - acc: 0.9928 - val_loss: 0.1085 - val_acc: 0.9709 - 9s/epoch - 72ms/step
+{'accuracy': 0.9754, 'precision': 0.9871, 'recall': 0.964, 'f1': 0.9754, 'roc_auc': 0.9966, 'tn': 536, 'fp': 7, 'fn': 20, 'tp': 536, 'model': 'Exp3_GRU', 'epochs_run': 9, 'train_time_s': 83.4, 'inference_ms_per_post': 0.738, 'trainable_params': 165249, 'total_params': 4743249, 'model_file_mb': 20.3, 'peak_ram_mb_process': 2395, 'seed': 1}
+
+===== Exp3_GRU  (seed 2) =====
+Epoch 1/10
+129/129 - 11s - loss: 0.2033 - acc: 0.9089 - val_loss: 0.0922 - val_acc: 0.9672 - 11s/epoch - 86ms/step
+Epoch 2/10
+129/129 - 10s - loss: 0.0895 - acc: 0.9668 - val_loss: 0.0905 - val_acc: 0.9654 - 10s/epoch - 74ms/step
+Epoch 3/10
+129/129 - 9s - loss: 0.0759 - acc: 0.9719 - val_loss: 0.0799 - val_acc: 0.9691 - 9s/epoch - 72ms/step
+Epoch 4/10
+129/129 - 9s - loss: 0.0632 - acc: 0.9783 - val_loss: 0.0951 - val_acc: 0.9627 - 9s/epoch - 73ms/step
+Epoch 5/10
+129/129 - 9s - loss: 0.0559 - acc: 0.9809 - val_loss: 0.0999 - val_acc: 0.9654 - 9s/epoch - 70ms/step
+Epoch 6/10
+129/129 - 9s - loss: 0.0503 - acc: 0.9815 - val_loss: 0.0913 - val_acc: 0.9682 - 9s/epoch - 70ms/step
+{'accuracy': 0.9727, 'precision': 0.9817, 'recall': 0.964, 'f1': 0.9728, 'roc_auc': 0.9965, 'tn': 533, 'fp': 10, 'fn': 20, 'tp': 536, 'model': 'Exp3_GRU', 'epochs_run': 6, 'train_time_s': 57.6, 'inference_ms_per_post': 0.789, 'trainable_params': 165249, 'total_params': 4743249, 'model_file_mb': 20.3, 'peak_ram_mb_process': 2414, 'seed': 2}
+
+===== Exp3_GRU  (seed 3) =====
+Epoch 1/10
+129/129 - 10s - loss: 0.2108 - acc: 0.9120 - val_loss: 0.1053 - val_acc: 0.9618 - 10s/epoch - 80ms/step
+Epoch 2/10
+129/129 - 9s - loss: 0.0879 - acc: 0.9678 - val_loss: 0.0971 - val_acc: 0.9654 - 9s/epoch - 69ms/step
+Epoch 3/10
+129/129 - 9s - loss: 0.0709 - acc: 0.9760 - val_loss: 0.0791 - val_acc: 0.9727 - 9s/epoch - 67ms/step
+Epoch 4/10
+129/129 - 9s - loss: 0.0593 - acc: 0.9799 - val_loss: 0.0818 - val_acc: 0.9682 - 9s/epoch - 67ms/step
+Epoch 5/10
+129/129 - 9s - loss: 0.0503 - acc: 0.9824 - val_loss: 0.0797 - val_acc: 0.9709 - 9s/epoch - 68ms/step
+Epoch 6/10
+129/129 - 9s - loss: 0.0442 - acc: 0.9850 - val_loss: 0.0998 - val_acc: 0.9645 - 9s/epoch - 67ms/step
+{'accuracy': 0.9736, 'precision': 0.9871, 'recall': 0.9604, 'f1': 0.9736, 'roc_auc': 0.9966, 'tn': 536, 'fp': 7, 'fn': 22, 'tp': 534, 'model': 'Exp3_GRU', 'epochs_run': 6, 'train_time_s': 83.0, 'inference_ms_per_post': 1.34, 'trainable_params': 165249, 'total_params': 4743249, 'model_file_mb': 20.3, 'peak_ram_mb_process': 2459, 'seed': 3}
+
+===== Exp3_GRU  (seed 4) =====
+Epoch 1/10
+129/129 - 10s - loss: 0.2020 - acc: 0.9138 - val_loss: 0.0965 - val_acc: 0.9663 - 10s/epoch - 80ms/step
+Epoch 2/10
+129/129 - 9s - loss: 0.0903 - acc: 0.9698 - val_loss: 0.1078 - val_acc: 0.9636 - 9s/epoch - 67ms/step
+Epoch 3/10
+129/129 - 9s - loss: 0.0734 - acc: 0.9743 - val_loss: 0.0808 - val_acc: 0.9700 - 9s/epoch - 68ms/step
+Epoch 4/10
+129/129 - 9s - loss: 0.0618 - acc: 0.9778 - val_loss: 0.0844 - val_acc: 0.9700 - 9s/epoch - 68ms/step
+Epoch 5/10
+129/129 - 9s - loss: 0.0561 - acc: 0.9797 - val_loss: 0.0773 - val_acc: 0.9718 - 9s/epoch - 67ms/step
+Epoch 6/10
+129/129 - 9s - loss: 0.0428 - acc: 0.9860 - val_loss: 0.0921 - val_acc: 0.9663 - 9s/epoch - 68ms/step
+Epoch 7/10
+129/129 - 9s - loss: 0.0384 - acc: 0.9862 - val_loss: 0.1025 - val_acc: 0.9627 - 9s/epoch - 67ms/step
+Epoch 8/10
+129/129 - 9s - loss: 0.0298 - acc: 0.9895 - val_loss: 0.1013 - val_acc: 0.9672 - 9s/epoch - 67ms/step
+{'accuracy': 0.9736, 'precision': 0.9907, 'recall': 0.9568, 'f1': 0.9735, 'roc_auc': 0.9966, 'tn': 538, 'fp': 5, 'fn': 24, 'tp': 532, 'model': 'Exp3_GRU', 'epochs_run': 8, 'train_time_s': 71.5, 'inference_ms_per_post': 0.716, 'trainable_params': 165249, 'total_params': 4743249, 'model_file_mb': 20.3, 'peak_ram_mb_process': 2477, 'seed': 4}
+
+===== Exp4_TFIDF_LogReg =====
+{'accuracy': 0.9536, 'precision': 0.9616, 'recall': 0.946, 'f1': 0.9538, 'roc_auc': 0.9909, 'tn': 522, 'fp': 21, 'fn': 30, 'tp': 526, 'model': 'Exp4_TFIDF_LogReg', 'epochs_run': None, 'train_time_s': 0.4, 'inference_ms_per_post': 0.034, 'trainable_params': 25286, 'total_params': 25286, 'model_file_mb': None, 'peak_ram_mb_process': 2506}
+
+                          accuracy         precision          recall              f1         roc_auc         train_time_s          epochs_run         inference_ms_per_post        
+                             mean     std      mean     std    mean     std    mean     std    mean     std         mean      std       mean     std                  mean     std
+model                                                                                                                                                                             
+Exp1_original_LSTM_CNN     0.9732  0.0021    0.9871  0.0072  0.9597  0.0085  0.9732  0.0022  0.9959  0.0004        79.84  10.4448        5.8  0.8367                1.3334  0.0756
+Exp2_modified_BiLSTM_CNN   0.9689  0.0083    0.9811  0.0101  0.9572  0.0255  0.9687  0.0091  0.9958  0.0008        66.72  18.6249        7.0  1.5811                0.8614  0.0942
+Exp3_GRU                   0.9738  0.0010    0.9850  0.0049  0.9629  0.0047  0.9738  0.0010  0.9966  0.0001        70.44  13.0431        7.0  1.4142                0.8790  0.2606
+Exp4_TFIDF_LogReg          0.9536     NaN    0.9616     NaN  0.9460     NaN  0.9538     NaN  0.9909     NaN         0.40      NaN        NaN     NaN                0.0340     NaN

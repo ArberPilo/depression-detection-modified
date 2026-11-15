@@ -1,0 +1,7 @@
+,accuracy,accuracy,precision,precision,recall,recall,f1,f1,roc_auc,roc_auc,train_time_s,train_time_s,epochs_run,epochs_run,inference_ms_per_post,inference_ms_per_post
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+model,,,,,,,,,,,,,,,,
+Exp1_original_LSTM_CNN,0.9732,0.0021,0.9871,0.0072,0.9597,0.0085,0.9732,0.0022,0.9959,0.0004,79.84,10.4448,5.8,0.8367,1.3334,0.0756
+Exp2_modified_BiLSTM_CNN,0.9689,0.0083,0.9811,0.0101,0.9572,0.0255,0.9687,0.0091,0.9958,0.0008,66.72,18.6249,7.0,1.5811,0.8614,0.0942
+Exp3_GRU,0.9738,0.001,0.985,0.0049,0.9629,0.0047,0.9738,0.001,0.9966,0.0001,70.44,13.0431,7.0,1.4142,0.879,0.2606
+Exp4_TFIDF_LogReg,0.9536,,0.9616,,0.946,,0.9538,,0.9909,,0.4,,,,0.034,
