@@ -1,0 +1,73 @@
+{
+  "rows": 7731,
+  "columns": [
+    "clean_text",
+    "is_depression"
+  ],
+  "class_counts": {
+    "0": 3900,
+    "1": 3831
+  },
+  "missing_values": {
+    "clean_text": 0,
+    "is_depression": 0
+  },
+  "duplicate_texts": 81,
+  "posts_under_3_words": 78,
+  "posts_with_url_fragments": 369,
+  "posts_with_amp_html_leftover": 213,
+  "posts_with_usernames_u_or_at": 0,
+  "keyword_depress_share_by_class": {
+    "0": 0.0041,
+    "1": 0.4096
+  },
+  "words_per_post_by_class": {
+    "0": {
+      "count": 3900.0,
+      "mean": 14.3,
+      "std": 7.3,
+      "min": 1.0,
+      "25%": 8.0,
+      "50%": 13.0,
+      "75%": 20.0,
+      "max": 42.0
+    },
+    "1": {
+      "count": 3831.0,
+      "mean": 136.1,
+      "std": 185.8,
+      "min": 1.0,
+      "25%": 32.0,
+      "50%": 78.0,
+      "75%": 174.0,
+      "max": 4239.0
+    }
+  },
+  "after_cleaning_rows": 7325,
+  "after_cleaning_class_counts": {
+    "1": 3703,
+    "0": 3622
+  },
+  "after_cleaning_words_median": 12.0,
+  "after_cleaning_words_p90": 94.0,
+  "share_posts_fitting_max_len": 0.948,
+  "split_sizes": {
+    "train": 5127,
+    "val": 1099,
+    "test": 1099
+  },
+  "split_positive_share": {
+    "train": 0.5056,
+    "val": 0.505,
+    "test": 0.5059
+  },
+  "twitter_keyword_depress_share_by_class": {
+    "0": 0.0026,
+    "1": 0.9315
+  },
+  "twitter_class_counts": {
+    "0": 11777,
+    "1": 2308
+  },
+  "twitter_words_median": 7.0
+}

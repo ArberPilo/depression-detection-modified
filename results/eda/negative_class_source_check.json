@@ -1,0 +1,14 @@
+{
+  "class_0": {
+    "posts_with_key": 3683,
+    "matched_in_sentiment140": 3506,
+    "share_matched": 0.9519,
+    "matched_in_first_12000_rows": 17
+  },
+  "class_1": {
+    "posts_with_key": 3775,
+    "matched_in_sentiment140": 28,
+    "share_matched": 0.0074,
+    "matched_in_first_12000_rows": 1
+  }
+}
